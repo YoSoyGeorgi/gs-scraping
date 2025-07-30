@@ -1,0 +1,27 @@
+Sure, here's the contents of the file: /gs-scraping/gs-scraping/.dockerignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore downloaded files
+descargas/
+comprobantes/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore any other temporary files
+*.log
+*.tmp
+*.swp
+*.swo
