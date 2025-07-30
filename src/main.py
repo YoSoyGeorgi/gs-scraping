@@ -369,7 +369,7 @@ def procesar_todos_rfcs(username, password):
                 continue
             
             # Aplicar filtros de fecha
-            filtrar_por_fecha(driver, "2025-01-01", "2025-07-30")  # Ajusta las fechas según necesites
+            filtrar_por_fecha(driver, "2025-07-01", "2025-07-31")  # Ajusta las fechas según necesites
             
             # Extraer datos de todas las páginas
             df_completo = extraer_todas_paginas(driver)
